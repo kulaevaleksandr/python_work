@@ -21,12 +21,12 @@ print(motorcycles)
 
 # Добавление элемента на определённую позицию - insert(место, значение)
 motorcycles = ['honda', 'yamaha', 'suzuki']
-motorcycles.insert(0, 'ducati') 
+motorcycles.insert(0, 'ducati')
 print(motorcycles)
 
 # Удаление элемента из списка
 motorcycles = ['honda', 'yamaha', 'suzuki']
-del motorcycles[0] 
+del motorcycles[0]
 print(motorcycles)
 
 # Удаление элемента из списка с сохранением возможности с ним работать - pop()
@@ -51,5 +51,6 @@ print(motorcycles)
 print(f'\nA {too_expensive.title()} is too expensive for me.')
 
 # Примечание: Метод remove() удаляет только первое вхождение заданного значения. Если существует вероятность того, что значение встречается в списке более одного
-раза, нужно использовать цикл.
-
+раза, нужно
+использовать
+цикл.

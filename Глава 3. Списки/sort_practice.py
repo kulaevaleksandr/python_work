@@ -11,4 +11,3 @@ countries.sort()
 print(countries)
 countries.sort(reverse=True)
 print(countries)
-
